@@ -1,11 +1,3 @@
-# 编译产物（33MB 二进制）
-yyb-go
-yyb-go.exe
-
-# SQLite 运行时临时锁文件（数据库本体 yyb.db 仍需入库）
-resource/db/*.db-wal
-resource/db/*.db-shm
-
 # 本地环境变量
 .env
 .env.local
