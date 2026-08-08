@@ -1,0 +1,14 @@
+# 编译产物（33MB 二进制）
+yyb-go
+yyb-go.exe
+
+# 运行时数据库
+resource/db/
+
+# 运行时生成的用户数据
+resource/avatars/
+resource/qr/
+
+# 本地环境变量
+.env
+.env.local

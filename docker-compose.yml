@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  yyb-go:
+    build: .
+    image: yyb-go:local
+    container_name: yyb-go
+    restart: unless-stopped
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./resource:/app/resource
