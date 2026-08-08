@@ -2,12 +2,9 @@
 yyb-go
 yyb-go.exe
 
-# 运行时数据库
-resource/db/
-
-# 运行时生成的用户数据
-resource/avatars/
-resource/qr/
+# SQLite 运行时临时锁文件（数据库本体 yyb.db 仍需入库）
+resource/db/*.db-wal
+resource/db/*.db-shm
 
 # 本地环境变量
 .env
